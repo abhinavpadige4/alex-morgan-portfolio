@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alex Morgan — Software Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of Alex Morgan, a full-stack software engineer building delightful products." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <div class="bg-grid" aria-hidden="true"></div>
+  <div class="bg-glow" aria-hidden="true"></div>
+
+  <header class="nav">
+    <div class="container nav-inner">
+      <a href="#" class="logo">&lt;AM /&gt;</a>
+      <nav class="nav-links" id="navLinks">
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero container" id="hero">
+      <div class="hero-content">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1 class="hero-title">Alex Morgan<span class="cursor">_</span></h1>
+        <h2 class="hero-subtitle">Full-Stack Software Engineer</h2>
+        <p class="hero-desc">I design and ship delightful, high-performance web applications. Currently focused on distributed systems, developer tooling, and delightful UX.</p>
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">View My Work</a>
+          <a href="#contact" class="btn btn-ghost">Get In Touch</a>
+        </div>
+        <div class="hero-social">
+          <a href="https://github.com/" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a>
+          <a href="https://linkedin.com/" target="_blank" rel="noopener" aria-label="LinkedIn">LinkedIn</a>
+          <a href="mailto:alex@example.com" aria-label="Email">Email</a>
+        </div>
+      </div>
+      <div class="hero-card" aria-hidden="true">
+        <div class="code-window">
+          <div class="code-dots"><span></span><span></span><span></span></div>
+          <pre class="code-block"><code><span class="kw">const</span> <span class="var">engineer</span> = {
+  <span class="prop">name</span>: <span class="str">'Alex Morgan'</span>,
+  <span class="prop">role</span>: <span class="str">'Full-Stack Engineer'</span>,
+  <span class="prop">stack</span>: [<span class="str">'React'</span>, <span class="str">'Node'</span>, <span class="str">'Go'</span>],
+  <span class="prop">coffee</span>: <span class="num">Infinity</span>,
+  <span class="prop">hireable</span>: <span class="bool">true</span>
+};</code></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section class="section container" id="skills">
+      <div class="section-head">
+        <span class="section-tag">01 — Skills</span>
+        <h2 class="section-title">Technologies I work with</h2>
+        <p class="section-desc">A curated toolkit I use to build products end-to-end.</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card"><div class="skill-icon">⚛</div><h3>Frontend</h3><ul><li>React</li><li>Next.js</li><li>TypeScript</li><li>Tailwind CSS</li></ul></div>
+        <div class="skill-card"><div class="skill-icon">⚙</div><h3>Backend</h3><ul><li>Node.js</li><li>Go</li><li>Python</li><li>PostgreSQL</li></ul></div>
+        <div class="skill-card"><div class="skill-icon">☁</div><h3>Cloud & DevOps</h3><ul><li>AWS</li><li>Docker</li><li>Kubernetes</li><li>Terraform</li></ul></div>
+        <div class="skill-card"><div class="skill-icon">🛠</div><h3>Tools</h3><ul><li>Git</li><li>GitHub Actions</li><li>Vercel</li><li>Figma</li></ul></div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section class="section container" id="experience">
+      <div class="section-head">
+        <span class="section-tag">02 — Experience</span>
+        <h2 class="section-title">Where I've worked</h2>
+        <p class="section-desc">A timeline of roles, teams, and shipped products.</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-date">2023 — Present</div>
+          <div class="timeline-body">
+            <h3>Senior Software Engineer · Acme Corp</h3>
+            <p>Leading a team of 5 building a real-time collaboration platform. Reduced p95 latency by 42% and shipped a new SDK used by 200+ customers.</p>
+            <div class="tags"><span>React</span><span>Go</span><span>WebSockets</span><span>AWS</span></div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2021 — 2023</div>
+          <div class="timeline-body">
+            <h3>Software Engineer · Nimbus Labs</h3>
+            <p>Built the analytics dashboard powering 1M+ daily events. Introduced feature flags and cut release cycle time from 2 weeks to 2 days.</p>
+            <div class="tags"><span>Next.js</span><span>TypeScript</span><span>PostgreSQL</span><span>Docker</span></div>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-date">2019 — 2021</div>
+          <div class="timeline-body">
+            <h3>Software Engineer · Brightpath</h3>
+            <p>Shipped the initial version of a B2B SaaS product from scratch. Owned the auth, billing, and onboarding flows end-to-end.</p>
+            <div class="tags"><span>Node.js</span><span>React</span><span>Stripe</span><span>AWS</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section class="section container" id="projects">
+      <div class="section-head">
+        <span class="section-tag">03 — Projects</span>
+        <h2 class="section-title">Things I've built</h2>
+        <p class="section-desc">Selected open-source and side projects.</p>
+      </div>
+      <div class="projects-grid">
+        <article class="project-card">
+          <div class="project-thumb" style="background:linear-gradient(135deg,#6366f1,#8b5cf6)"><span>⚡</span></div>
+          <div class="project-body">
+            <h3>Fluxboard</h3>
+            <p>An open-source real-time kanban board with CRDT sync. 1.2k ★ on GitHub.</p>
+            <div class="tags"><span>React</span><span>Yjs</span><span>Node</span></div>
+            <div class="project-links"><a href="#">Live →</a><a href="#">Source →</a></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-thumb" style="background:linear-gradient(135deg,#06b6d4,#3b82f6)"><span>🛰</span></div>
+          <div class="project-body">
+            <h3>Orbit CLI</h3>
+            <p>A developer CLI that scaffolds production-ready microservices in seconds.</p>
+            <div class="tags"><span>Go</span><span>Cobra</span><span>Docker</span></div>
+            <div class="project-links"><a href="#">Live →</a><a href="#">Source →</a></div>
+          </div>
+        </article>
+        <article class="project-card">
+          <div class="project-thumb" style="background:linear-gradient(135deg,#f59e0b,#ef4444)"><span>📊</span></div>
+          <div class="project-body">
+            <h3>Pulse Analytics</h3>
+            <p>Privacy-first product analytics with sub-second queries on 100M events.</p>
+            <div class="tags"><span>Next.js</span><span>ClickHouse</span><span>PostHog</span></div>
+            <div class="project-links"><a href="#">Live →</a><a href="#">Source →</a></div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="section container" id="contact">
+      <div class="section-head">
+        <span class="section-tag">04 — Contact</span>
+        <h2 class="section-title">Let's build something together</h2>
+        <p class="section-desc">I'm open to interesting projects, collaborations, and full-time roles.</p>
+      </div>
+      <form class="contact-form" id="contactForm">
+        <div class="form-row">
+          <label>Name<input type="text" name="name" required placeholder="Your name" /></label>
+          <label>Email<input type="email" name="email" required placeholder="you@example.com" /></label>
+        </div>
+        <label>Message<textarea name="message" rows="5" required placeholder="Tell me about your project..."></textarea></label>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p class="form-status" id="formStatus" role="status"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Alex Morgan. Built with care.</p>
+      <p class="footer-note">Replace placeholder content with your resume details.</p>
+    </div>
+  </footer>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>
